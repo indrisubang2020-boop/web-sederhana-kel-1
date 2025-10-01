@@ -77,7 +77,7 @@ if(user){
                 // Tambahkan baris tabel untuk setiap item
                 daftar.innerHTML += `<tr>
                 <td>${item.nama}</td> <!--Nama produk -->
-                td>${item.jumlah}</td>  <!-- Jumlah produk -->
+                <td>${item.jumlah}</td>  <!-- Jumlah produk -->
                 <td>Rp ${item.harga}</td> <!-- Harga satuan -->
                 <td>Rp ${subtotal}</td> <!-- Total harga produk -->
                 <td><button onclick="hapusItem(${i})">Hapus</button></td> <!-- Tombol hapus --!>
@@ -111,5 +111,6 @@ if(user){
                 toast.style.display = "none";
             }, 3000);
         }
+
 
                 // CODE JAVASCRIPT //
