@@ -1,0 +1,175 @@
+/* RESET DASAR */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: pink;
+}
+/* RESET DASAR */
+
+/* HEADER */
+header{
+    background: black;
+    color: pink;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1{
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: pink;
+    text-decoration: none;
+}
+
+form input,
+form button{
+    padding: 5px;
+}
+/* HEADER */
+
+/* BANNER */
+#banner{
+    background: pink;
+    padding: 40px;
+    text-align: center;
+}
+/* BANNER */
+
+/* PRODUK */
+#produk{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background: pink;
+}
+
+.produk-item{
+    background: blanchedalmond;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.produk-item:hover{
+    transform: scale(1.05);
+}
+
+.produk-item img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.produk-item button:hover{
+    background: black;
+}
+/* PRODUK */
+
+/* KERANJANG */
+#keranjang {
+    padding: 20px;
+
+}
+
+#keranjang table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+#keranjang th,
+#keranjang td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#keranjang th {
+    background: blanchedalmond;
+    font-weight: bold;
+}
+
+#keranjang p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* KERANJANG */
+
+/* CHECKOUT */
+#checkout {
+    padding: 20px;
+}
+
+#checkout form input,
+#checkout form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#checkout form button {
+    background: blanchedalmond;
+    color: rgb(8, 8, 8);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#checkout form button:hover {
+    background: black;
+}
+/* CHECKOUT */
+
+/* KONTAK */
+#kontak {
+    padding: 20px;
+    background: bla;
+    margin-left: 10px;
+}
+/* KONTAK */
+
+/* NOTIFIKASI */
+#toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: pink;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: none;
+}
+/* NOTIFIKASI */
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: black;
+    color: white;
+}
+/* FOOTER */
