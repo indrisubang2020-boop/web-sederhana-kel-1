@@ -112,5 +112,4 @@ if(user){
             }, 3000);
         }
 
-
                 // CODE JAVASCRIPT //
